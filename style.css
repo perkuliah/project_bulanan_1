@@ -1,0 +1,67 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url('header.jpg') center/cover no-repeat;
+  height: 100vh;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer a {
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ffc107;
+}
+
+/* Statistik */
+.stat-box {
+  transition: transform 0.3s ease;
+}
+
+.stat-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Efek hover pada produk */
+.produk-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.produk-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.text_toko{
+    color: #ffc107;
+}
+.community {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.form_commun {
+  background-color: #57564F;
+}
+
+.kritik_an {
+  width: 70%;
+}
+
+.buttt {
+  text-align: center;
+}
+
+
